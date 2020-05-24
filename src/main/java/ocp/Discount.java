@@ -1,10 +1,6 @@
 package ocp;
 
-public class Discount {
+public interface Discount {
 
-    // 1. Diseñar un descuento para lanzar nuestra app.
-    public Double apply(Double price){
-
-        return  price * 0.5;
-    }
+    public Double apply(Double price);
 }
