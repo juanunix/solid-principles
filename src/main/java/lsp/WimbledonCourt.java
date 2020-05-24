@@ -1,11 +1,13 @@
 package lsp;
 
-public class WimbledonCourt extends Court {
 
-    // 2. Diseñar la pista de Wimbledon.
-    @Override
+public class WimbledonCourt extends Court implements GrassCourt{
+
+    // 2. Diseñar la pista de Wimblendon.
+
     public void cutGrass() {
-        // Lógica que corta el Césped.
-        System.out.println("Cortando el Césped en Wimbledon");
+
+        System.out.println("Cortando el césped de Wimblendon");
+
     }
 }

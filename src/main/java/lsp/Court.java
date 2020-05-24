@@ -4,11 +4,8 @@ public class Court {
 
     private int width;
     private int height;
-    private String grass;
 
-     // 1. Diseñar una clase base de Pista de Tennis.
-
-    public void cutGrass(){}
+    // 1. Diseñar una clase base de Pista de Tennis.
 
     public int getWidth() {
 
@@ -29,5 +26,4 @@ public class Court {
 
         this.height = height;
     }
-
 }
