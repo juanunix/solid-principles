@@ -43,7 +43,7 @@ Cinco principios SOLID de la Programación Orientada a Objetos.
      b. Mostrar normal.
      
      
-## Open/Close Principle -- SRP
+## Open/Close Principle -- OCP
  
 "Las entidades de software(clases, módulos, funciones) deberían ser abiertas para la extensión
 pero cerradas para la modificación"
