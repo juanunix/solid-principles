@@ -1,6 +1,6 @@
 package ocp;
 
-public class BlackFridayDiscount {
+public class BlackFridayDiscount implements Discount{
 
     // 4. Diseña un descuento para BlackFriday
     public Double apply(Double price) {
