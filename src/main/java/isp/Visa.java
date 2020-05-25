@@ -1,6 +1,6 @@
 package isp;
 
-public class Visa implements Payment{
+public class Visa implements CreditCardPayment{
 
     // 2. Diseñar la clase Visa para gestionar pagos de Tarjeta de Crédito.
     public void calculatePayment() {
@@ -11,11 +11,4 @@ public class Visa implements Payment{
 
     }
 
-    public void bankTransferPayment() {
-        //NO CODIGO
-    }
-
-    public void cashPayment() {
-        //NO CODIGO
-    }
 }
